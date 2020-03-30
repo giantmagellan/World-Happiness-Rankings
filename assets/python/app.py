@@ -9,7 +9,10 @@ app.config['SQLALCHEMY_DATABASE_URI'] = \
 db = SQLAlchemy(app)
 
 class Happy(db.Model):
-    __tablename__ = ''
+    __tablename__ = 'Rankings'
+    __table_args__ = {'extend_existing': True}
+    LOC_CODE = db.Column(db.Text, primary_key=True)
+
 @app.route("/")
 def index():
 
