@@ -1,18 +1,15 @@
-# Dependencies
+# Dependencies 
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 
-import flask.ext.sqlalchemy
-import flask.ext.restless
-
 # Creating instance of flask app
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = \ 
+    'sqlite:///c:/Users/Rudy/Desktop/DataViz/projects/happiness-project/assets/python/happy_ranks.sqlite'
+db = SQLAlchemy(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////happy_ranks.sqlite'
-
-db = flask.ext.sqlalchemy.SQLAlchemy(app)
-
-
+class Happy(db.Model):
+    __tablename__ = ''
 @app.route("/")
 def index():
 
