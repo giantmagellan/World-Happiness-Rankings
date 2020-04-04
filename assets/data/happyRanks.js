@@ -1,9 +1,4 @@
-{
-  "type": "FeatureCollection",
-  "metadata": {
-    "count": 156
-  },
-  "Rankings": [
+var Rankings = [
     {
       "Overall rank": 1,
       "Country or region": "Finland",
@@ -1720,5 +1715,4 @@
       "Generosity": 0.202,
       "Perceptions of corruption": 0.091
     }
-  ]
-}
+  ];
