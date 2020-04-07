@@ -120,6 +120,9 @@ var width = 750,
 	radius = 10;
 	padding = 100;
 
+function loadPageChoropleth(){
+window.location = "http://127.0.0.1:5000/choropleth"
+}
 
 var buttons = d3.selectAll('#buttons')
 buttons.append('button')
@@ -181,17 +184,7 @@ buttons.append('button')
 			 .style("cursor", "pointer")
 			 .style("-webkit-box-shadow", "inset 0 -2px #dadedf")
 			 .style("box-shadow", "inset 0 -2px #dadedf")
-			 .on("hover", function(d) {
-				 d3.select(this)
-				 		.style("background", "lightblue")
-						.style("color", "white")
-			 })
-			 .on("click", function(d) {
-				 d3.select(this)
-				 	.attr("xlink:href", "127.0.0.1:500"+choropleth)
-				 	.style("background", "#ecf0f1")
-				 	.style("color", "#454545")
-			 })
+			 .on("click", loadPageChoropleth)
 
 // TODO: on click function to redirect you to the pages to our visualizations (.attr("xlink:href", "http://en.wikipedia.org/wiki/"+word)
 
