@@ -53,7 +53,7 @@ def multiple():
         rankings_dict['GDP per capita'] = gdp
         all_rankings.append(rankings_dict)
 
-    return jsonify(results)    
+    return jsonify(all_rankings)    
 
 if __name__ == "__main__":
     app.run(debug = True)
