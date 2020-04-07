@@ -20,7 +20,7 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
-Rankings = Base.classes.rankings
+Rankings = Base.classes.Rankings
 
 ##########################################
 # Flask Setup
@@ -35,16 +35,35 @@ def home():
 
     return render_template("index.html")
 
-@app.route("/api/v1.0/multiple")
+@app.route("/api/circular")
 def multiple():
     """ Return 2019 Happiness Rankings data as json """
     session = Session(engine)
 
-    results = session.query(Rankings(*entities).all()
+    # Query all countries, scores, and GDP
+    results = session.query(Rankings.Country, Rankings.Score, Rankings['GDP per capita']).all()
 
     session.close()
 
-    return jsonify(results)    
+    all_rankings = []
+    for country, score, gdp in results:
+        rankings_dict = {}
+        rankings_dict['Country'] = country
+        rankings_dict['Score'] = score
+        rankings_dict['GDP per capita'] = gdp
+        all_rankings.append(rankings_dict)
+
+    return jsonify(all_rankings)    
+
+
+
+
+
+@app.route("/choropleth")
+def choropleth():
+
+    return render_template("choroplethmap.html")
+
 
 if __name__ == "__main__":
     app.run(debug = True)
