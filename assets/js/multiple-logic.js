@@ -1,7 +1,7 @@
 // =============================
 // MULTIPLE.JS TEST SCRIPT
 // =============================
-url = "http://127.0.0.1:5000//api/v1.0/multiple";
+url = "http://127.0.0.1:5000/api/circular";
 
 // =============================
 // CONNECT TO SQLITE DATABASE

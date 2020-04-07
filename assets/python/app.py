@@ -35,15 +35,24 @@ def home():
 
     return render_template("index.html")
 
-@app.route("/api/v1.0/multiple")
+@app.route("/api/circular")
 def multiple():
     """ Return 2019 Happiness Rankings data as json """
     session = Session(engine)
 
-    results = session.query(Rankings(*entities).all()
+    # Query all countries, scores, and GDP
+    results = session.query(Rankings.Country, Rankings.Score, Rankings['GDP per capita']).all()
 
     session.close()
 
+    all_rankings = []
+    for country, score, gdp in results:
+        rankings_dict = {}
+        rankings_dict['Country'] = Country
+        rankings_dict['Score'] = Score
+        rankings_dict['GDP per capita'] = gdp
+        all_rankings.append(rankings_dict)
+        
     return jsonify(results)    
 
 if __name__ == "__main__":
