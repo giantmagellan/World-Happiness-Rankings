@@ -48,11 +48,11 @@ def multiple():
     all_rankings = []
     for country, score, gdp in results:
         rankings_dict = {}
-        rankings_dict['Country'] = Country
-        rankings_dict['Score'] = Score
+        rankings_dict['Country'] = country
+        rankings_dict['Score'] = score
         rankings_dict['GDP per capita'] = gdp
         all_rankings.append(rankings_dict)
-        
+
     return jsonify(results)    
 
 if __name__ == "__main__":
