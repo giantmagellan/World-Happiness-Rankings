@@ -226,8 +226,10 @@ buttons.append('button')
 			 })
 			 .on("click", function(d) {
 				 d3.select(this)
+				 	.attr("xlink:href", "http://en.wikipedia.org/wiki/"+word)
 				 	.style("background", "#ecf0f1")
-				 	.style("color", "#454545")
+					.style("color", "#454545")
+
 			 })
 buttons.append('button')
 			 .text('Visualization 2')
@@ -248,11 +250,12 @@ buttons.append('button')
 			 })
 			 .on("click", function(d) {
 				 d3.select(this)
+				 	.attr("xlink:href", "http://en.wikipedia.org/wiki/"+word)
 				 	.style("background", "#ecf0f1")
 				 	.style("color", "#454545")
 			 })
 buttons.append('button')
-			 .text('Visualization 3')
+			 .text('Choropleth')
 			 .style("font-size", "10px")
 			 .style("font-family", "Helvetica Neue")
 			 .style("padding", "8px")
@@ -270,11 +273,12 @@ buttons.append('button')
 			 })
 			 .on("click", function(d) {
 				 d3.select(this)
+				 	.attr("xlink:href", "127.0.0.1:500"+choropleth)
 				 	.style("background", "#ecf0f1")
 				 	.style("color", "#454545")
 			 })
 
-// TODO: on click function to redirect you to the pages to our visualizations
+// TODO: on click function to redirect you to the pages to our visualizations (.attr("xlink:href", "http://en.wikipedia.org/wiki/"+word)
 
 		</script>
         <!-- Leaflet CSS & JS -->
