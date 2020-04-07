@@ -1,21 +1,29 @@
-# Dependencies 
-from flask import Flask, render_template
-from flask_sqlalchemy import SQLAlchemy
+##########################################
+# Dependencies
+##########################################
+import sqlalchemy
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, func
+
+from flask import Flask, jsonify
+
 
 ##########################################
 # Database Setup
 ##########################################
-app.config['SQLALCHEMY_DATABASE_URI'] = \ 
-    'sqlite:///c:/Users/Rudy/Desktop/DataViz/projects/happiness-project/assets/python/happy_ranks.sqlite'
-db = SQLAlchemy(app)
+engine = create_engine('sqlite:///happy_ranks.sqlite')
 
-# class Happy(db.Model):
-#     __tablename__ = 'Rankings'
-#     __table_args__ = {'extend_existing': True}
-#     LOC_CODE = db.Column(db.Text, primary_key=True)
+# reflect an existing database into a new model
+Base = automap_base()
+# reflect the tables
+Base.prepare(engine, reflect=True)
+
+# Save reference to the table
+Rankings = Base.classes.rankings
 
 ##########################################
-# Flask setup
+# Flask Setup
 ##########################################
 app = Flask(__name__)
 
@@ -27,9 +35,16 @@ def home():
 
     return render_template("index.html")
 
-@app.route("/multiple")
+@app.route("/api/v1.0/multiple")
 def multiple():
+    """ Return 2019 Happiness Rankings data as json """
+    session = Session(engine)
 
-    
+    results = session.query(Rankings(*entities).all()
+
+    session.close()
+
+    return jsonify(results)    
+
 if __name__ == "__main__":
     app.run(debug = True)
