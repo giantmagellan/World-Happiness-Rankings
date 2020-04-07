@@ -73,5 +73,10 @@ def world():
 
     return jsonify(data)   
 
+@app.route("/choropleth")
+def choropleth():
+    return render_template("choroplethmap.html")
+
+
 if __name__ == "__main__":
     app.run(debug = True)
