@@ -20,7 +20,7 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
-Rankings = Base.classes.rankings
+Rankings = Base.classes.Rankings
 
 ##########################################
 # Flask Setup
@@ -53,7 +53,25 @@ def multiple():
         rankings_dict['GDP per capita'] = gdp
         all_rankings.append(rankings_dict)
 
-    return jsonify(all_rankings)    
+    return jsonify(all_rankings)   
+
+@app.route("/world/map")
+def world():
+    session = Session(engine)
+
+    results = session.query(Rankings.Country, Rankings.Score, Rankings['Overall rank']).all()
+    
+    session.close()
+
+    data = []
+    for country, score, rank in results:
+        data_dict = {}
+        data_dict['Country'] = country
+        data_dict['Score'] = score
+        data_dict['Overall rank'] = rank
+        data.append(data_dict)
+
+    return jsonify(data)   
 
 if __name__ == "__main__":
     app.run(debug = True)
