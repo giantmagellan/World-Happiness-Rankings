@@ -41,14 +41,14 @@ def multiple():
     session = Session(engine)
 
     # Query all countries, scores, and GDP
-    results = session.query(Rankings.Country, Rankings.Score, Rankings['GDP per capita']).all()
+    results = session.query(Rankings['Country or region'], Rankings.Score, Rankings['GDP per capita']).all()
 
     session.close()
 
     all_rankings = []
     for country, score, gdp in results:
         rankings_dict = {}
-        rankings_dict['Country'] = country
+        rankings_dict['Country or region'] = country
         rankings_dict['Score'] = score
         rankings_dict['GDP per capita'] = gdp
         all_rankings.append(rankings_dict)
@@ -59,14 +59,14 @@ def multiple():
 def world():
     session = Session(engine)
 
-    results = session.query(Rankings.Country, Rankings.Score, Rankings['Overall rank']).all()
+    results = session.query(Rankings['Country or region'], Rankings.Score, Rankings['Overall rank']).all()
     
     session.close()
 
     data = []
     for country, score, rank in results:
         data_dict = {}
-        data_dict['Country'] = country
+        data_dict['Country or region'] = country
         data_dict['Score'] = score
         data_dict['Overall rank'] = rank
         data.append(data_dict)
