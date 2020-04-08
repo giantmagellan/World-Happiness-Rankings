@@ -1,4 +1,4 @@
- [
+var markers = [
   {
     "country": "AD",
     "latitude": 42.546245,
@@ -1468,4 +1468,5 @@
     "latitude": -19.015438,
     "longitude": 29.154857,
     "name": "Zimbabwe"
-  }]
+  }
+]
