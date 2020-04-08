@@ -58,7 +58,7 @@ var iconOptions = {
 // Set the longitude, latitude, and the starting zoom level
 var myMap = L.map("map", {
   center: [42.76698, 2.493823],
-  zoom: 2.5,
+  zoom: 1.75,
   opacity: 10.0,
   minZoom: 1.5,
   maxZoom: 5,
@@ -189,7 +189,7 @@ d3.json(url, function(response) {
   for (var i = 0; i < response.length; i++) {
     var location = response[i].location;
     if (location) {
-      markers.addLayer(L.marker([location.latitude[1], location.longitude[0]])
+      markers.addLayer(L.circleMarker([location.latitude[1], location.longitude[0]])
         .bindPopup(response[i].country));
 
     }
@@ -350,3 +350,326 @@ var elsalvador = L.circleMarker([13.794185,	-88.89653],  {
   color: '#FF00FF'
 }).addTo(myMap);
 
+var italy = L.circleMarker([41.87194,	12.56738],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var bahrain = L.circleMarker([25.930414,	50.637772],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var slovakia = L.circleMarker([48.669026,	19.699024],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var trinidad = L.circleMarker([10.691803,	-61.222503],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var poland = L.circleMarker([51.919438,	19.145136],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var uzbek = L.circleMarker([41.377491,	64.58526],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var lithuania = L.circleMarker([55.169438,	23.881275],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var colombia = L.circleMarker([4.570868,	-74.297333],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var slovenia = L.circleMarker([46.151241,	14.995463],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var nicaragua = L.circleMarker([12.865416,	-85.207229],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var kosovo = L.circleMarker([42.602636,	20.902977],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var argentina = L.circleMarker([-38.416097,	-63.616672],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var romania = L.circleMarker([45.943161,	24.96676],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var cyprus = L.circleMarker([35.126413,	33.429859],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var ecuador = L.circleMarker([-1.831239,	-78.183406],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var kuwait = L.circleMarker([29.31166,	47.481766],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var thailand = L.circleMarker([15.870032,	100.992541],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var lativa = L.circleMarker([56.879635,	24.603189],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var lativa = L.circleMarker([35.907757,	127.766922],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var southkorea = L.circleMarker([58.595272,	25.013607],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var estonia = L.circleMarker([58.595272,	25.013607],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var jamaica = L.circleMarker([18.109581,	-77.297508],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var mauritius = L.circleMarker([-20.348404,	57.552152],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var japan = L.circleMarker([36.204824,	138.252924],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var honduras = L.circleMarker([15.199999,	-86.241905],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var kazakh = L.circleMarker([48.019573,	66.923684],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var bolivia = L.circleMarker([-16.290154,	-63.588653],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var bolivia = L.circleMarker([47.162494,	19.503304],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var paraguay = L.circleMarker([-23.442503,	-58.443832],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var northcyprus = L.circleMarker([35.126413,	33.429859],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var peru = L.circleMarker([-9.189967,	-75.015152],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var portugal = L.circleMarker([39.399872,	-8.224454],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var pakistan = L.circleMarker([30.375321,	69.345116],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var russia = L.circleMarker([61.52401,	105.318756],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var phillipines = L.circleMarker([12.879721,	121.774017],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var serbia = L.circleMarker([44.016521,	21.005859],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var moldova = L.circleMarker([47.411631,	28.369885],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var libya = L.circleMarker([26.3351,	17.228331],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var montenegro = L.circleMarker([42.708678,	19.37439],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var tajik = L.circleMarker([38.861034,	71.276093],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var croatia = L.circleMarker([45.1,	15.2],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var hongkong = L.circleMarker([22.396428,	114.109497],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var dominicanR = L.circleMarker([18.735693,	-70.162651],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var bosnia = L.circleMarker([43.915886,	17.679076],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var turkey = L.circleMarker([38.963745,	35.243322],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var malaysia = L.circleMarker([4.210484,	101.975766],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var belarus = L.circleMarker([53.709807,	27.953389],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var greece = L.circleMarker([39.074208,	21.824312],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var mongolia = L.circleMarker([46.862496,	103.846656],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var normacedonia = L.circleMarker([41.608635,	21.745275],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var nigeria = L.circleMarker([9.081999,	8.675277],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var kyrgyz = L.circleMarker([41.20438,	74.766098],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var turkmenis = L.circleMarker([38.969719,	59.556278],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var algeria = L.circleMarker([28.033886,	1.659626],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
