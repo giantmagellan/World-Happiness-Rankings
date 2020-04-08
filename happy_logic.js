@@ -183,11 +183,11 @@ norway.bindPopup("<h3>Norway</h3></b>Score: 7.554</br>Rank: 3</br>GDP: 1.48");
 //Other countries to show concentrated areas of happiness
 //Plan on using the json file to auto populate but having issues
 
-url = "/assets/data/coords.json"
+url = "/assets/data/happy_rankings.json"
 d3.json(url, function(response) {
   var markers = L.markerClusterGroup();
   for (var i = 0; i < response.length; i++) {
-    var location = response[i].location;
+    var location = response[i].url;
     if (location) {
       markers.addLayer(L.marker([location.latitude[1], location.longitude[0]])
         .bindPopup(response[i].name));
@@ -197,15 +197,6 @@ d3.json(url, function(response) {
 });
 
 
-
-
-// markers = "/assets/data/coords.js"
-// for ( var i=0; i < markers.length; ++i ) 
-// {
-//    L.marker( [markers[i].latitude, markers[i].longitude] )
-//       .bindPopup( '<a href="' + markers[i].url + '" target="_blank">' + markers[i].name + '</a>' )
-//       .addTo( map );
-// }
 var australia = L.circleMarker([-25.2744, 133.7751], {
   draggable: true,
   radius: 5,
@@ -262,6 +253,30 @@ var us = L.circleMarker([37.09024, -95.712891], {
 }).addTo(myMap);
 
 var czech = L.circleMarker([49.817492, 15.472962],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var uae = L.circleMarker([23.424076, 53.847818],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var malta = L.circleMarker([35.937496, 14.375416],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var mmexico = L.circleMarker([23.634501, -102.552784],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var mmexico = L.circleMarker([46.227638, -102.552784],  {
   draggable: true,
   radius: 5,
   color: '#FF00FF'
