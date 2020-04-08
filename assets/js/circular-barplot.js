@@ -1,11 +1,11 @@
 // ===========================================================
 // SET MARGINS
 // ===========================================================
-var svgWidth = 800;
-var svgHeight = 800;
+var svgWidth = 900;
+var svgHeight = 1000;
 
 var margin = {
-    top: 100,
+    top: 40,
     right: 0,
     bottom: 0,
     left: 0
@@ -39,8 +39,8 @@ var chosenYAxis = "Score";
 // ===========================================================
 // RETRIEVE DATA
 // ===========================================================
-// url = "http://127.0.0.1:5000/api/v1.0/multiple";
-
+// url = "/api/circular";
+// d3.json(url).then(function(happyData) {
 d3.csv('assets/data/2019_world_happy_rankings.csv').then(function(happyData) {
     console.log(happyData);
 
@@ -67,7 +67,7 @@ d3.csv('assets/data/2019_world_happy_rankings.csv').then(function(happyData) {
         .data(happyData)
         .enter()
         .append('path')
-        .attr("fill", "royalblue")
+        .attr("fill", "#34e89e")
         .attr('class', 'yo')
         .attr("d", d3.arc()   
             .innerRadius(innerRadius)
@@ -86,7 +86,7 @@ d3.csv('assets/data/2019_world_happy_rankings.csv').then(function(happyData) {
         .enter()
         .append('g')
         .attr("text-anchor", d => {return (x(d.Country) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "end":"start"; })
-        .attr("transform", d => {return "rotate(" + ((x(d.Country) + x.bandwidth() / 2) * 180 / Math.PI - 90) + ")"+"translate(" + (y(d['GDP per capita'])+40) + ", 0)"; })
+        .attr("transform", d => {return "rotate(" + ((x(d.Country) + x.bandwidth() / 2) * 180 / Math.PI - 90) + ")"+"translate(" + (y(d['GDP per capita'])+73) + ", 0)"; })
         .append("text")
         .text(d => {return(d.Country)})
         .attr("transform", d => {return (x(d.Country) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "rotate(180)" : "rotate(0)"; })
@@ -99,7 +99,7 @@ d3.csv('assets/data/2019_world_happy_rankings.csv').then(function(happyData) {
         .data(happyData)
         .enter()
         .append('path')
-        .attr('fill', 'orange')
+        .attr('fill', '#0f3443')
         .attr('d', d3.arc()
             .innerRadius(d => {return ybis(0)})
             .outerRadius(d => {return ybis(d['GDP per capita']); })
@@ -107,4 +107,19 @@ d3.csv('assets/data/2019_world_happy_rankings.csv').then(function(happyData) {
             .endAngle(d => {return x(d.Country) + x.bandwidth(); })
             .padAngle(0.01)
             .padRadius(innerRadius));
+    
+    // =======================================================
+    // TITLE & LEGEND
+    // =======================================================
+    svg.append("text")
+        .attr('x', 250)
+        .attr('y', 60)
+        .text("2019 Happiness Rankings: Score vs GDP")
+        .style("font-size", "24px")
+        .attr("alignment-baseline", "middle")
+
+    svg.append("circle").attr("cx",400).attr("cy",500).attr("r", 6).style("fill", "#34e89e")
+    svg.append("circle").attr("cx",400).attr("cy",530).attr("r", 6).style("fill", "#0f3443")
+    svg.append("text").attr("x", 410).attr("y", 500).text("Score").style("font-size", "15px").attr("alignment-baseline","middle")
+    svg.append("text").attr("x", 410).attr("y", 530).text("GDP Per Capita").style("font-size", "15px").attr("alignment-baseline","middle")
 });
