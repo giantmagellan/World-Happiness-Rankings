@@ -42,7 +42,7 @@ Base.prepare(engine, reflect=True)
 
 # Save reference to the table
 
-Rankings = Base.classes.rankings
+#Rankings = Base.classes.rankings
 
 
 
