@@ -93,7 +93,7 @@ finland.bindPopup("<h3>Finland</h3></b>Score: 7.79</br>Rank: 1</br>GDP: 1.34" );
 var denmark = L.circleMarker([56.263920, 9.501785], {
   draggable: true,
   title: "Denmark",
-  radius: 30,
+  radius: 20,
   color: '#F2F12D'
 }).addTo(myMap);
 
@@ -113,7 +113,7 @@ iceland.bindPopup("<h3>Iceland</h3></b>Score: 7.49</br>Rank: 4</br>GDP: 1.38");
 var netherlands = L.circleMarker([52.132633, 5.291266], {
   draggable: true,
   title: "Netherlands",
-  radius: 15,
+  radius: 20,
   color: '#DA9C20'
 }).addTo(myMap);
 
@@ -123,7 +123,7 @@ netherlands.bindPopup("<h3>Netherlands</h3></b>Score: 7.49</br>Rank: 5</br>GDP: 
 var switzerland = L.circleMarker([47.038, 8.222855], {
   draggable: true,
   title: "Switzerland",
-  radius: 12,
+  radius: 20,
   color: '#CA8323'
 }).addTo(myMap);
 
@@ -133,7 +133,7 @@ switzerland.bindPopup("<h3>Switzerland</h3></b>Score: 7.48</br>Rank: 6</br>GDP: 
 var sweden = L.circleMarker([46.8038, 8.222855], {
   draggable: true,
   title: "Sweden",
-  radius: 10,
+  radius: 20,
   color: '#B86B25'
 }).addTo(myMap);
 
@@ -143,7 +143,7 @@ sweden.bindPopup("<h3>Sweden</h3></b>Score: 7.34</br>Rank: 7</br>GDP: 1.39");
 var newZealand = L.circleMarker([-44.056293, 170.35416], {
   draggable: true,
   title: "New Zealand",
-  radius: 8,
+  radius: 20,
   color: '#A25626'
 }).addTo(myMap);
 
@@ -153,7 +153,7 @@ newZealand.bindPopup("<h3>New Zealand</h3></b>Score: 7.31</br>Rank: 8</br>GDP: 1
 var canada = L.circleMarker([58.027164, -105.38086], {
   draggable: true,
   title: "Canada",
-  radius: 6,
+  radius: 20,
   color: '#8B4225'
 }).addTo(myMap);
 
@@ -163,7 +163,7 @@ canada.bindPopup("<h3>Canada</h3></b>Score: 7.28</br>Rank: 9</br>GDP: 1.37");
 var austria = L.circleMarker([47.58844, 14.140211], {
   draggable: true,
   title: "Austria",
-  radius: 4,
+  radius: 20,
   color: '#723122'
 }).addTo(myMap);
 
@@ -173,7 +173,7 @@ austria.bindPopup("<h3>Austria</h3></b>Score: 7.25</br>Rank: 10</br>GDP: 1.37");
 var norway = L.circleMarker([60.472023, 8.4689465], {
   draggable: true,
   title: "Norway",
-  radius: 25,
+  radius: 20,
   color: '#EED322'
 }).addTo(myMap);
 
@@ -187,13 +187,14 @@ url = "/assets/data/happy_rankings.json"
 d3.json(url, function(response) {
   var markers = L.markerClusterGroup();
   for (var i = 0; i < response.length; i++) {
-    var location = response[i].url;
+    var location = response[i].location;
     if (location) {
       markers.addLayer(L.marker([location.latitude[1], location.longitude[0]])
-        .bindPopup(response[i].name));
+        .bindPopup(response[i].country));
 
     }
   }
+  myMap.addLayer(markers);
 });
 
 
@@ -276,8 +277,76 @@ var mmexico = L.circleMarker([23.634501, -102.552784],  {
   color: '#FF00FF'
 }).addTo(myMap);
 
-var mmexico = L.circleMarker([46.227638, -102.552784],  {
+var france = L.circleMarker([46.227638,	2.213749
+],  {
   draggable: true,
   radius: 5,
   color: '#FF00FF'
 }).addTo(myMap);
+
+var taiwan = L.circleMarker([23.69781,	120.960515],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var chile = L.circleMarker([-35.675147,	-71.542969],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var guatemala = L.circleMarker([15.783471,	-90.230759],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var saudi = L.circleMarker([23.885942,	45.079162],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var qatar = L.circleMarker([25.354826,	51.183884],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var spain = L.circleMarker([40.463667,	-3.74922],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var panama = L.circleMarker([8.537981,	-80.782127],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var brazil = L.circleMarker([-14.235004,	-51.92528],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var urug = L.circleMarker([-32.522779,	-55.765835],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var singapore = L.circleMarker([1.352083,	103.819836],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+
+var elsalvador = L.circleMarker([13.794185,	-88.89653],  {
+  draggable: true,
+  radius: 5,
+  color: '#FF00FF'
+}).addTo(myMap);
+

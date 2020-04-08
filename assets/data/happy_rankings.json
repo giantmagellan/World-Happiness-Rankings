@@ -1,7 +1,7 @@
 [
   {
     "Overall rank": 1,
-    "Country or region": "Finland",
+    "country": "Finland",
     "Score": 7.769,
     "GDP per capita": 1.34,
     "Social support": 1.587,
@@ -14,7 +14,7 @@
   },
   {
     "Overall rank": 2,
-    "Country or region": "Denmark",
+    "country": "Denmark",
     "Score": 7.6,
     "GDP per capita": 1.383,
     "Social support": 1.573,
@@ -27,7 +27,7 @@
   },
   {
     "Overall rank": 3,
-    "Country or region": "Norway",
+    "country": "Norway",
     "Score": 7.554,
     "GDP per capita": 1.488,
     "Social support": 1.582,
@@ -40,7 +40,7 @@
   },
   {
     "Overall rank": 4,
-    "Country or region": "Iceland",
+    "country": "Iceland",
     "Score": 7.494,
     "GDP per capita": 1.38,
     "Social support": 1.624,
@@ -53,7 +53,7 @@
   },
   {
     "Overall rank": 5,
-    "Country or region": "Netherlands",
+    "country": "Netherlands",
     "Score": 7.488,
     "GDP per capita": 1.396,
     "Social support": 1.522,
@@ -66,7 +66,7 @@
   },
   {
     "Overall rank": 6,
-    "Country or region": "Switzerland",
+    "country": "Switzerland",
     "Score": 7.48,
     "GDP per capita": 1.452,
     "Social support": 1.526,
@@ -79,7 +79,7 @@
   },
   {
     "Overall rank": 7,
-    "Country or region": "Sweden",
+    "country": "Sweden",
     "Score": 7.343,
     "GDP per capita": 1.387,
     "Social support": 1.487,
@@ -92,7 +92,7 @@
   },
   {
     "Overall rank": 8,
-    "Country or region": "New Zealand",
+    "country": "New Zealand",
     "Score": 7.307,
     "GDP per capita": 1.303,
     "Social support": 1.557,
@@ -105,7 +105,7 @@
   },
   {
     "Overall rank": 9,
-    "Country or region": "Canada",
+    "country": "Canada",
     "Score": 7.278,
     "GDP per capita": 1.365,
     "Social support": 1.505,
@@ -118,7 +118,7 @@
   },
   {
     "Overall rank": 10,
-    "Country or region": "Austria",
+    "country": "Austria",
     "Score": 7.246,
     "GDP per capita": 1.376,
     "Social support": 1.475,
@@ -131,7 +131,7 @@
   },
   {
     "Overall rank": 11,
-    "Country or region": "Australia",
+    "country": "Australia",
     "Score": 7.228,
     "GDP per capita": 1.372,
     "Social support": 1.548,
@@ -144,7 +144,7 @@
   },
   {
     "Overall rank": 12,
-    "Country or region": "Costa Rica",
+    "country": "Costa Rica",
     "Score": 7.167,
     "GDP per capita": 1.034,
     "Social support": 1.441,
@@ -157,7 +157,7 @@
   },
   {
     "Overall rank": 13,
-    "Country or region": "Israel",
+    "country": "Israel",
     "Score": 7.139,
     "GDP per capita": 1.276,
     "Social support": 1.455,
@@ -170,7 +170,7 @@
   },
   {
     "Overall rank": 14,
-    "Country or region": "Luxembourg",
+    "country": "Luxembourg",
     "Score": 7.09,
     "GDP per capita": 1.609,
     "Social support": 1.479,
@@ -183,7 +183,7 @@
   },
   {
     "Overall rank": 15,
-    "Country or region": "United Kingdom",
+    "country": "United Kingdom",
     "Score": 7.054,
     "GDP per capita": 1.333,
     "Social support": 1.538,
@@ -196,7 +196,7 @@
   },
   {
     "Overall rank": 16,
-    "Country or region": "Ireland",
+    "country": "Ireland",
     "Score": 7.021,
     "GDP per capita": 1.499,
     "Social support": 1.553,
@@ -209,7 +209,7 @@
   },
   {
     "Overall rank": 17,
-    "Country or region": "Germany",
+    "country": "Germany",
     "Score": 6.985,
     "GDP per capita": 1.373,
     "Social support": 1.454,
@@ -222,7 +222,7 @@
   },
   {
     "Overall rank": 18,
-    "Country or region": "Belgium",
+    "country": "Belgium",
     "Score": 6.923,
     "GDP per capita": 1.356,
     "Social support": 1.504,
@@ -235,7 +235,7 @@
   },
   {
     "Overall rank": 19,
-    "Country or region": "United States",
+    "country": "United States",
     "Score": 6.892,
     "GDP per capita": 1.433,
     "Social support": 1.457,
@@ -248,7 +248,7 @@
   },
   {
     "Overall rank": 20,
-    "Country or region": "Czech Republic",
+    "country": "Czech Republic",
     "Score": 6.852,
     "GDP per capita": 1.269,
     "Social support": 1.487,
@@ -261,7 +261,7 @@
   },
   {
     "Overall rank": 21,
-    "Country or region": "United Arab Emirates",
+    "country": "United Arab Emirates",
     "Score": 6.825,
     "GDP per capita": 1.503,
     "Social support": 1.31,
@@ -274,7 +274,7 @@
   },
   {
     "Overall rank": 22,
-    "Country or region": "Malta",
+    "country": "Malta",
     "Score": 6.726,
     "GDP per capita": 1.3,
     "Social support": 1.52,
@@ -287,7 +287,7 @@
   },
   {
     "Overall rank": 23,
-    "Country or region": "Mexico",
+    "country": "Mexico",
     "Score": 6.595,
     "GDP per capita": 1.07,
     "Social support": 1.323,
@@ -300,7 +300,7 @@
   },
   {
     "Overall rank": 24,
-    "Country or region": "France",
+    "country": "France",
     "Score": 6.592,
     "GDP per capita": 1.324,
     "Social support": 1.472,
@@ -313,7 +313,7 @@
   },
   {
     "Overall rank": 25,
-    "Country or region": "Taiwan",
+    "country": "Taiwan",
     "Score": 6.446,
     "GDP per capita": 1.368,
     "Social support": 1.43,
@@ -326,7 +326,7 @@
   },
   {
     "Overall rank": 26,
-    "Country or region": "Chile",
+    "country": "Chile",
     "Score": 6.444,
     "GDP per capita": 1.159,
     "Social support": 1.369,
@@ -339,7 +339,7 @@
   },
   {
     "Overall rank": 27,
-    "Country or region": "Guatemala",
+    "country": "Guatemala",
     "Score": 6.436,
     "GDP per capita": 0.8,
     "Social support": 1.269,
@@ -352,7 +352,7 @@
   },
   {
     "Overall rank": 28,
-    "Country or region": "Saudi Arabia",
+    "country": "Saudi Arabia",
     "Score": 6.375,
     "GDP per capita": 1.403,
     "Social support": 1.357,
@@ -365,7 +365,7 @@
   },
   {
     "Overall rank": 29,
-    "Country or region": "Qatar",
+    "country": "Qatar",
     "Score": 6.374,
     "GDP per capita": 1.684,
     "Social support": 1.313,
@@ -378,7 +378,7 @@
   },
   {
     "Overall rank": 30,
-    "Country or region": "Spain",
+    "country": "Spain",
     "Score": 6.354,
     "GDP per capita": 1.286,
     "Social support": 1.484,
@@ -391,7 +391,7 @@
   },
   {
     "Overall rank": 31,
-    "Country or region": "Panama",
+    "country": "Panama",
     "Score": 6.321,
     "GDP per capita": 1.149,
     "Social support": 1.442,
@@ -404,7 +404,7 @@
   },
   {
     "Overall rank": 32,
-    "Country or region": "Brazil",
+    "country": "Brazil",
     "Score": 6.3,
     "GDP per capita": 1.004,
     "Social support": 1.439,
@@ -417,7 +417,7 @@
   },
   {
     "Overall rank": 33,
-    "Country or region": "Uruguay",
+    "country": "Uruguay",
     "Score": 6.293,
     "GDP per capita": 1.124,
     "Social support": 1.465,
@@ -430,7 +430,7 @@
   },
   {
     "Overall rank": 34,
-    "Country or region": "Singapore",
+    "country": "Singapore",
     "Score": 6.262,
     "GDP per capita": 1.572,
     "Social support": 1.463,
@@ -443,7 +443,7 @@
   },
   {
     "Overall rank": 35,
-    "Country or region": "El Salvador",
+    "country": "El Salvador",
     "Score": 6.253,
     "GDP per capita": 0.794,
     "Social support": 1.242,
@@ -456,7 +456,7 @@
   },
   {
     "Overall rank": 36,
-    "Country or region": "Italy",
+    "country": "Italy",
     "Score": 6.223,
     "GDP per capita": 1.294,
     "Social support": 1.488,
@@ -469,7 +469,7 @@
   },
   {
     "Overall rank": 37,
-    "Country or region": "Bahrain",
+    "country": "Bahrain",
     "Score": 6.199,
     "GDP per capita": 1.362,
     "Social support": 1.368,
@@ -482,7 +482,7 @@
   },
   {
     "Overall rank": 38,
-    "Country or region": "Slovakia",
+    "country": "Slovakia",
     "Score": 6.198,
     "GDP per capita": 1.246,
     "Social support": 1.504,
@@ -495,7 +495,7 @@
   },
   {
     "Overall rank": 39,
-    "Country or region": "Trinidad & Tobago",
+    "country": "Trinidad & Tobago",
     "Score": 6.192,
     "GDP per capita": 1.231,
     "Social support": 1.477,
@@ -508,7 +508,7 @@
   },
   {
     "Overall rank": 40,
-    "Country or region": "Poland",
+    "country": "Poland",
     "Score": 6.182,
     "GDP per capita": 1.206,
     "Social support": 1.438,
@@ -521,7 +521,7 @@
   },
   {
     "Overall rank": 41,
-    "Country or region": "Uzbekistan",
+    "country": "Uzbekistan",
     "Score": 6.174,
     "GDP per capita": 0.745,
     "Social support": 1.529,
@@ -534,7 +534,7 @@
   },
   {
     "Overall rank": 42,
-    "Country or region": "Lithuania",
+    "country": "Lithuania",
     "Score": 6.149,
     "GDP per capita": 1.238,
     "Social support": 1.515,
@@ -547,7 +547,7 @@
   },
   {
     "Overall rank": 43,
-    "Country or region": "Colombia",
+    "country": "Colombia",
     "Score": 6.125,
     "GDP per capita": 0.985,
     "Social support": 1.41,
@@ -560,7 +560,7 @@
   },
   {
     "Overall rank": 44,
-    "Country or region": "Slovenia",
+    "country": "Slovenia",
     "Score": 6.118,
     "GDP per capita": 1.258,
     "Social support": 1.523,
@@ -573,7 +573,7 @@
   },
   {
     "Overall rank": 45,
-    "Country or region": "Nicaragua",
+    "country": "Nicaragua",
     "Score": 6.105,
     "GDP per capita": 0.694,
     "Social support": 1.325,
@@ -586,7 +586,7 @@
   },
   {
     "Overall rank": 46,
-    "Country or region": "Kosovo",
+    "country": "Kosovo",
     "Score": 6.1,
     "GDP per capita": 0.882,
     "Social support": 1.232,
@@ -599,7 +599,7 @@
   },
   {
     "Overall rank": 47,
-    "Country or region": "Argentina",
+    "country": "Argentina",
     "Score": 6.086,
     "GDP per capita": 1.092,
     "Social support": 1.432,
@@ -612,7 +612,7 @@
   },
   {
     "Overall rank": 48,
-    "Country or region": "Romania",
+    "country": "Romania",
     "Score": 6.07,
     "GDP per capita": 1.162,
     "Social support": 1.232,
@@ -625,7 +625,7 @@
   },
   {
     "Overall rank": 49,
-    "Country or region": "Cyprus",
+    "country": "Cyprus",
     "Score": 6.046,
     "GDP per capita": 1.263,
     "Social support": 1.223,
@@ -638,7 +638,7 @@
   },
   {
     "Overall rank": 50,
-    "Country or region": "Ecuador",
+    "country": "Ecuador",
     "Score": 6.028,
     "GDP per capita": 0.912,
     "Social support": 1.312,
@@ -651,7 +651,7 @@
   },
   {
     "Overall rank": 51,
-    "Country or region": "Kuwait",
+    "country": "Kuwait",
     "Score": 6.021,
     "GDP per capita": 1.5,
     "Social support": 1.319,
@@ -664,7 +664,7 @@
   },
   {
     "Overall rank": 52,
-    "Country or region": "Thailand",
+    "country": "Thailand",
     "Score": 6.008,
     "GDP per capita": 1.05,
     "Social support": 1.409,
@@ -677,7 +677,7 @@
   },
   {
     "Overall rank": 53,
-    "Country or region": "Latvia",
+    "country": "Latvia",
     "Score": 5.94,
     "GDP per capita": 1.187,
     "Social support": 1.465,
@@ -690,7 +690,7 @@
   },
   {
     "Overall rank": 54,
-    "Country or region": "South Korea",
+    "country": "South Korea",
     "Score": 5.895,
     "GDP per capita": 1.301,
     "Social support": 1.219,
@@ -703,7 +703,7 @@
   },
   {
     "Overall rank": 55,
-    "Country or region": "Estonia",
+    "country": "Estonia",
     "Score": 5.893,
     "GDP per capita": 1.237,
     "Social support": 1.528,
@@ -716,7 +716,7 @@
   },
   {
     "Overall rank": 56,
-    "Country or region": "Jamaica",
+    "country": "Jamaica",
     "Score": 5.89,
     "GDP per capita": 0.831,
     "Social support": 1.478,
@@ -729,7 +729,7 @@
   },
   {
     "Overall rank": 57,
-    "Country or region": "Mauritius",
+    "country": "Mauritius",
     "Score": 5.888,
     "GDP per capita": 1.12,
     "Social support": 1.402,
@@ -742,7 +742,7 @@
   },
   {
     "Overall rank": 58,
-    "Country or region": "Japan",
+    "country": "Japan",
     "Score": 5.886,
     "GDP per capita": 1.327,
     "Social support": 1.419,
@@ -755,7 +755,7 @@
   },
   {
     "Overall rank": 59,
-    "Country or region": "Honduras",
+    "country": "Honduras",
     "Score": 5.86,
     "GDP per capita": 0.642,
     "Social support": 1.236,
@@ -768,7 +768,7 @@
   },
   {
     "Overall rank": 60,
-    "Country or region": "Kazakhstan",
+    "country": "Kazakhstan",
     "Score": 5.809,
     "GDP per capita": 1.173,
     "Social support": 1.508,
@@ -781,7 +781,7 @@
   },
   {
     "Overall rank": 61,
-    "Country or region": "Bolivia",
+    "country": "Bolivia",
     "Score": 5.779,
     "GDP per capita": 0.776,
     "Social support": 1.209,
@@ -794,7 +794,7 @@
   },
   {
     "Overall rank": 62,
-    "Country or region": "Hungary",
+    "country": "Hungary",
     "Score": 5.758,
     "GDP per capita": 1.201,
     "Social support": 1.41,
@@ -807,7 +807,7 @@
   },
   {
     "Overall rank": 63,
-    "Country or region": "Paraguay",
+    "country": "Paraguay",
     "Score": 5.743,
     "GDP per capita": 0.855,
     "Social support": 1.475,
@@ -820,7 +820,7 @@
   },
   {
     "Overall rank": 64,
-    "Country or region": "Northern Cyprus",
+    "country": "Northern Cyprus",
     "Score": 5.718,
     "GDP per capita": 1.263,
     "Social support": 1.252,
@@ -833,7 +833,7 @@
   },
   {
     "Overall rank": 65,
-    "Country or region": "Peru",
+    "country": "Peru",
     "Score": 5.697,
     "GDP per capita": 0.96,
     "Social support": 1.274,
@@ -846,7 +846,7 @@
   },
   {
     "Overall rank": 66,
-    "Country or region": "Portugal",
+    "country": "Portugal",
     "Score": 5.693,
     "GDP per capita": 1.221,
     "Social support": 1.431,
@@ -859,7 +859,7 @@
   },
   {
     "Overall rank": 67,
-    "Country or region": "Pakistan",
+    "country": "Pakistan",
     "Score": 5.653,
     "GDP per capita": 0.677,
     "Social support": 0.886,
@@ -872,7 +872,7 @@
   },
   {
     "Overall rank": 68,
-    "Country or region": "Russia",
+    "country": "Russia",
     "Score": 5.648,
     "GDP per capita": 1.183,
     "Social support": 1.452,
@@ -885,7 +885,7 @@
   },
   {
     "Overall rank": 69,
-    "Country or region": "Philippines",
+    "country": "Philippines",
     "Score": 5.631,
     "GDP per capita": 0.807,
     "Social support": 1.293,
@@ -898,7 +898,7 @@
   },
   {
     "Overall rank": 70,
-    "Country or region": "Serbia",
+    "country": "Serbia",
     "Score": 5.603,
     "GDP per capita": 1.004,
     "Social support": 1.383,
@@ -911,7 +911,7 @@
   },
   {
     "Overall rank": 71,
-    "Country or region": "Moldova",
+    "country": "Moldova",
     "Score": 5.529,
     "GDP per capita": 0.685,
     "Social support": 1.328,
@@ -924,7 +924,7 @@
   },
   {
     "Overall rank": 72,
-    "Country or region": "Libya",
+    "country": "Libya",
     "Score": 5.525,
     "GDP per capita": 1.044,
     "Social support": 1.303,
@@ -937,7 +937,7 @@
   },
   {
     "Overall rank": 73,
-    "Country or region": "Montenegro",
+    "country": "Montenegro",
     "Score": 5.523,
     "GDP per capita": 1.051,
     "Social support": 1.361,
@@ -950,7 +950,7 @@
   },
   {
     "Overall rank": 74,
-    "Country or region": "Tajikistan",
+    "country": "Tajikistan",
     "Score": 5.467,
     "GDP per capita": 0.493,
     "Social support": 1.098,
@@ -963,7 +963,7 @@
   },
   {
     "Overall rank": 75,
-    "Country or region": "Croatia",
+    "country": "Croatia",
     "Score": 5.432,
     "GDP per capita": 1.155,
     "Social support": 1.266,
@@ -976,7 +976,7 @@
   },
   {
     "Overall rank": 76,
-    "Country or region": "Hong Kong",
+    "country": "Hong Kong",
     "Score": 5.43,
     "GDP per capita": 1.438,
     "Social support": 1.277,
@@ -989,7 +989,7 @@
   },
   {
     "Overall rank": 77,
-    "Country or region": "Dominican Republic",
+    "country": "Dominican Republic",
     "Score": 5.425,
     "GDP per capita": 1.015,
     "Social support": 1.401,
@@ -1002,7 +1002,7 @@
   },
   {
     "Overall rank": 78,
-    "Country or region": "Bosnia and Herzegovina",
+    "country": "Bosnia and Herzegovina",
     "Score": 5.386,
     "GDP per capita": 0.945,
     "Social support": 1.212,
@@ -1015,7 +1015,7 @@
   },
   {
     "Overall rank": 79,
-    "Country or region": "Turkey",
+    "country": "Turkey",
     "Score": 5.373,
     "GDP per capita": 1.183,
     "Social support": 1.36,
@@ -1028,7 +1028,7 @@
   },
   {
     "Overall rank": 80,
-    "Country or region": "Malaysia",
+    "country": "Malaysia",
     "Score": 5.339,
     "GDP per capita": 1.221,
     "Social support": 1.171,
@@ -1041,7 +1041,7 @@
   },
   {
     "Overall rank": 81,
-    "Country or region": "Belarus",
+    "country": "Belarus",
     "Score": 5.323,
     "GDP per capita": 1.067,
     "Social support": 1.465,
@@ -1054,7 +1054,7 @@
   },
   {
     "Overall rank": 82,
-    "Country or region": "Greece",
+    "country": "Greece",
     "Score": 5.287,
     "GDP per capita": 1.181,
     "Social support": 1.156,
@@ -1067,7 +1067,7 @@
   },
   {
     "Overall rank": 83,
-    "Country or region": "Mongolia",
+    "country": "Mongolia",
     "Score": 5.285,
     "GDP per capita": 0.948,
     "Social support": 1.531,
@@ -1080,7 +1080,7 @@
   },
   {
     "Overall rank": 84,
-    "Country or region": "North Macedonia",
+    "country": "North Macedonia",
     "Score": 5.274,
     "GDP per capita": 0.983,
     "Social support": 1.294,
@@ -1093,7 +1093,7 @@
   },
   {
     "Overall rank": 85,
-    "Country or region": "Nigeria",
+    "country": "Nigeria",
     "Score": 5.265,
     "GDP per capita": 0.696,
     "Social support": 1.111,
@@ -1106,7 +1106,7 @@
   },
   {
     "Overall rank": 86,
-    "Country or region": "Kyrgyzstan",
+    "country": "Kyrgyzstan",
     "Score": 5.261,
     "GDP per capita": 0.551,
     "Social support": 1.438,
@@ -1119,7 +1119,7 @@
   },
   {
     "Overall rank": 87,
-    "Country or region": "Turkmenistan",
+    "country": "Turkmenistan",
     "Score": 5.247,
     "GDP per capita": 1.052,
     "Social support": 1.538,
@@ -1132,7 +1132,7 @@
   },
   {
     "Overall rank": 88,
-    "Country or region": "Algeria",
+    "country": "Algeria",
     "Score": 5.211,
     "GDP per capita": 1.002,
     "Social support": 1.16,
@@ -1145,7 +1145,7 @@
   },
   {
     "Overall rank": 89,
-    "Country or region": "Morocco",
+    "country": "Morocco",
     "Score": 5.208,
     "GDP per capita": 0.801,
     "Social support": 0.782,
@@ -1158,7 +1158,7 @@
   },
   {
     "Overall rank": 90,
-    "Country or region": "Azerbaijan",
+    "country": "Azerbaijan",
     "Score": 5.208,
     "GDP per capita": 1.043,
     "Social support": 1.147,
@@ -1171,7 +1171,7 @@
   },
   {
     "Overall rank": 91,
-    "Country or region": "Lebanon",
+    "country": "Lebanon",
     "Score": 5.197,
     "GDP per capita": 0.987,
     "Social support": 1.224,
@@ -1184,7 +1184,7 @@
   },
   {
     "Overall rank": 92,
-    "Country or region": "Indonesia",
+    "country": "Indonesia",
     "Score": 5.192,
     "GDP per capita": 0.931,
     "Social support": 1.203,
@@ -1197,7 +1197,7 @@
   },
   {
     "Overall rank": 93,
-    "Country or region": "China",
+    "country": "China",
     "Score": 5.191,
     "GDP per capita": 1.029,
     "Social support": 1.125,
@@ -1210,7 +1210,7 @@
   },
   {
     "Overall rank": 94,
-    "Country or region": "Vietnam",
+    "country": "Vietnam",
     "Score": 5.175,
     "GDP per capita": 0.741,
     "Social support": 1.346,
@@ -1223,7 +1223,7 @@
   },
   {
     "Overall rank": 95,
-    "Country or region": "Bhutan",
+    "country": "Bhutan",
     "Score": 5.082,
     "GDP per capita": 0.813,
     "Social support": 1.321,
@@ -1236,7 +1236,7 @@
   },
   {
     "Overall rank": 96,
-    "Country or region": "Cameroon",
+    "country": "Cameroon",
     "Score": 5.044,
     "GDP per capita": 0.549,
     "Social support": 0.91,
@@ -1249,7 +1249,7 @@
   },
   {
     "Overall rank": 97,
-    "Country or region": "Bulgaria",
+    "country": "Bulgaria",
     "Score": 5.011,
     "GDP per capita": 1.092,
     "Social support": 1.513,
@@ -1262,7 +1262,7 @@
   },
   {
     "Overall rank": 98,
-    "Country or region": "Ghana",
+    "country": "Ghana",
     "Score": 4.996,
     "GDP per capita": 0.611,
     "Social support": 0.868,
@@ -1275,7 +1275,7 @@
   },
   {
     "Overall rank": 99,
-    "Country or region": "Ivory Coast",
+    "country": "Ivory Coast",
     "Score": 4.944,
     "GDP per capita": 0.569,
     "Social support": 0.808,
@@ -1288,7 +1288,7 @@
   },
   {
     "Overall rank": 100,
-    "Country or region": "Nepal",
+    "country": "Nepal",
     "Score": 4.913,
     "GDP per capita": 0.446,
     "Social support": 1.226,
@@ -1301,7 +1301,7 @@
   },
   {
     "Overall rank": 101,
-    "Country or region": "Jordan",
+    "country": "Jordan",
     "Score": 4.906,
     "GDP per capita": 0.837,
     "Social support": 1.225,
@@ -1314,7 +1314,7 @@
   },
   {
     "Overall rank": 102,
-    "Country or region": "Benin",
+    "country": "Benin",
     "Score": 4.883,
     "GDP per capita": 0.393,
     "Social support": 0.437,
@@ -1327,7 +1327,7 @@
   },
   {
     "Overall rank": 103,
-    "Country or region": "Congo (Brazzaville)",
+    "country": "Congo (Brazzaville)",
     "Score": 4.812,
     "GDP per capita": 0.673,
     "Social support": 0.799,
@@ -1340,7 +1340,7 @@
   },
   {
     "Overall rank": 104,
-    "Country or region": "Gabon",
+    "country": "Gabon",
     "Score": 4.799,
     "GDP per capita": 1.057,
     "Social support": 1.183,
@@ -1353,7 +1353,7 @@
   },
   {
     "Overall rank": 105,
-    "Country or region": "Laos",
+    "country": "Laos",
     "Score": 4.796,
     "GDP per capita": 0.764,
     "Social support": 1.03,
@@ -1366,7 +1366,7 @@
   },
   {
     "Overall rank": 106,
-    "Country or region": "South Africa",
+    "country": "South Africa",
     "Score": 4.722,
     "GDP per capita": 0.96,
     "Social support": 1.351,
@@ -1379,7 +1379,7 @@
   },
   {
     "Overall rank": 107,
-    "Country or region": "Albania",
+    "country": "Albania",
     "Score": 4.719,
     "GDP per capita": 0.947,
     "Social support": 0.848,
@@ -1392,7 +1392,7 @@
   },
   {
     "Overall rank": 108,
-    "Country or region": "Venezuela",
+    "country": "Venezuela",
     "Score": 4.707,
     "GDP per capita": 0.96,
     "Social support": 1.427,
@@ -1405,7 +1405,7 @@
   },
   {
     "Overall rank": 109,
-    "Country or region": "Cambodia",
+    "country": "Cambodia",
     "Score": 4.7,
     "GDP per capita": 0.574,
     "Social support": 1.122,
@@ -1418,7 +1418,7 @@
   },
   {
     "Overall rank": 110,
-    "Country or region": "Palestinian Territories",
+    "country": "Palestinian Territories",
     "Score": 4.696,
     "GDP per capita": 0.657,
     "Social support": 1.247,
@@ -1431,7 +1431,7 @@
   },
   {
     "Overall rank": 111,
-    "Country or region": "Senegal",
+    "country": "Senegal",
     "Score": 4.681,
     "GDP per capita": 0.45,
     "Social support": 1.134,
@@ -1444,7 +1444,7 @@
   },
   {
     "Overall rank": 112,
-    "Country or region": "Somalia",
+    "country": "Somalia",
     "Score": 4.668,
     "GDP per capita": 0,
     "Social support": 0.698,
@@ -1457,7 +1457,7 @@
   },
   {
     "Overall rank": 113,
-    "Country or region": "Namibia",
+    "country": "Namibia",
     "Score": 4.639,
     "GDP per capita": 0.879,
     "Social support": 1.313,
@@ -1470,7 +1470,7 @@
   },
   {
     "Overall rank": 114,
-    "Country or region": "Niger",
+    "country": "Niger",
     "Score": 4.628,
     "GDP per capita": 0.138,
     "Social support": 0.774,
@@ -1483,7 +1483,7 @@
   },
   {
     "Overall rank": 115,
-    "Country or region": "Burkina Faso",
+    "country": "Burkina Faso",
     "Score": 4.587,
     "GDP per capita": 0.331,
     "Social support": 1.056,
@@ -1496,7 +1496,7 @@
   },
   {
     "Overall rank": 116,
-    "Country or region": "Armenia",
+    "country": "Armenia",
     "Score": 4.559,
     "GDP per capita": 0.85,
     "Social support": 1.055,
@@ -1509,7 +1509,7 @@
   },
   {
     "Overall rank": 117,
-    "Country or region": "Iran",
+    "country": "Iran",
     "Score": 4.548,
     "GDP per capita": 1.1,
     "Social support": 0.842,
@@ -1522,7 +1522,7 @@
   },
   {
     "Overall rank": 118,
-    "Country or region": "Guinea",
+    "country": "Guinea",
     "Score": 4.534,
     "GDP per capita": 0.38,
     "Social support": 0.829,
@@ -1535,7 +1535,7 @@
   },
   {
     "Overall rank": 119,
-    "Country or region": "Georgia",
+    "country": "Georgia",
     "Score": 4.519,
     "GDP per capita": 0.886,
     "Social support": 0.666,
@@ -1548,7 +1548,7 @@
   },
   {
     "Overall rank": 120,
-    "Country or region": "Gambia",
+    "country": "Gambia",
     "Score": 4.516,
     "GDP per capita": 0.308,
     "Social support": 0.939,
@@ -1561,7 +1561,7 @@
   },
   {
     "Overall rank": 121,
-    "Country or region": "Kenya",
+    "country": "Kenya",
     "Score": 4.509,
     "GDP per capita": 0.512,
     "Social support": 0.983,
@@ -1574,7 +1574,7 @@
   },
   {
     "Overall rank": 122,
-    "Country or region": "Mauritania",
+    "country": "Mauritania",
     "Score": 4.49,
     "GDP per capita": 0.57,
     "Social support": 1.167,
@@ -1587,7 +1587,7 @@
   },
   {
     "Overall rank": 123,
-    "Country or region": "Mozambique",
+    "country": "Mozambique",
     "Score": 4.466,
     "GDP per capita": 0.204,
     "Social support": 0.986,
@@ -1600,7 +1600,7 @@
   },
   {
     "Overall rank": 124,
-    "Country or region": "Tunisia",
+    "country": "Tunisia",
     "Score": 4.461,
     "GDP per capita": 0.921,
     "Social support": 1,
@@ -1613,7 +1613,7 @@
   },
   {
     "Overall rank": 125,
-    "Country or region": "Bangladesh",
+    "country": "Bangladesh",
     "Score": 4.456,
     "GDP per capita": 0.562,
     "Social support": 0.928,
@@ -1626,7 +1626,7 @@
   },
   {
     "Overall rank": 126,
-    "Country or region": "Iraq",
+    "country": "Iraq",
     "Score": 4.437,
     "GDP per capita": 1.043,
     "Social support": 0.98,
@@ -1639,7 +1639,7 @@
   },
   {
     "Overall rank": 127,
-    "Country or region": "Congo (Kinshasa)",
+    "country": "Congo (Kinshasa)",
     "Score": 4.418,
     "GDP per capita": 0.094,
     "Social support": 1.125,
@@ -1652,7 +1652,7 @@
   },
   {
     "Overall rank": 128,
-    "Country or region": "Mali",
+    "country": "Mali",
     "Score": 4.39,
     "GDP per capita": 0.385,
     "Social support": 1.105,
@@ -1665,7 +1665,7 @@
   },
   {
     "Overall rank": 129,
-    "Country or region": "Sierra Leone",
+    "country": "Sierra Leone",
     "Score": 4.374,
     "GDP per capita": 0.268,
     "Social support": 0.841,
@@ -1678,7 +1678,7 @@
   },
   {
     "Overall rank": 130,
-    "Country or region": "Sri Lanka",
+    "country": "Sri Lanka",
     "Score": 4.366,
     "GDP per capita": 0.949,
     "Social support": 1.265,
@@ -1691,7 +1691,7 @@
   },
   {
     "Overall rank": 131,
-    "Country or region": "Myanmar",
+    "country": "Myanmar",
     "Score": 4.36,
     "GDP per capita": 0.71,
     "Social support": 1.181,
@@ -1704,7 +1704,7 @@
   },
   {
     "Overall rank": 132,
-    "Country or region": "Chad",
+    "country": "Chad",
     "Score": 4.35,
     "GDP per capita": 0.35,
     "Social support": 0.766,
@@ -1717,7 +1717,7 @@
   },
   {
     "Overall rank": 133,
-    "Country or region": "Ukraine",
+    "country": "Ukraine",
     "Score": 4.332,
     "GDP per capita": 0.82,
     "Social support": 1.39,
@@ -1730,7 +1730,7 @@
   },
   {
     "Overall rank": 134,
-    "Country or region": "Ethiopia",
+    "country": "Ethiopia",
     "Score": 4.286,
     "GDP per capita": 0.336,
     "Social support": 1.033,
@@ -1743,7 +1743,7 @@
   },
   {
     "Overall rank": 135,
-    "Country or region": "Swaziland",
+    "country": "Swaziland",
     "Score": 4.212,
     "GDP per capita": 0.811,
     "Social support": 1.149,
@@ -1756,7 +1756,7 @@
   },
   {
     "Overall rank": 136,
-    "Country or region": "Uganda",
+    "country": "Uganda",
     "Score": 4.189,
     "GDP per capita": 0.332,
     "Social support": 1.069,
@@ -1769,7 +1769,7 @@
   },
   {
     "Overall rank": 137,
-    "Country or region": "Egypt",
+    "country": "Egypt",
     "Score": 4.166,
     "GDP per capita": 0.913,
     "Social support": 1.039,
@@ -1782,7 +1782,7 @@
   },
   {
     "Overall rank": 138,
-    "Country or region": "Zambia",
+    "country": "Zambia",
     "Score": 4.107,
     "GDP per capita": 0.578,
     "Social support": 1.058,
@@ -1795,7 +1795,7 @@
   },
   {
     "Overall rank": 139,
-    "Country or region": "Togo",
+    "country": "Togo",
     "Score": 4.085,
     "GDP per capita": 0.275,
     "Social support": 0.572,
@@ -1808,7 +1808,7 @@
   },
   {
     "Overall rank": 140,
-    "Country or region": "India",
+    "country": "India",
     "Score": 4.015,
     "GDP per capita": 0.755,
     "Social support": 0.765,
@@ -1821,7 +1821,7 @@
   },
   {
     "Overall rank": 141,
-    "Country or region": "Liberia",
+    "country": "Liberia",
     "Score": 3.975,
     "GDP per capita": 0.073,
     "Social support": 0.922,
@@ -1834,7 +1834,7 @@
   },
   {
     "Overall rank": 142,
-    "Country or region": "Comoros",
+    "country": "Comoros",
     "Score": 3.973,
     "GDP per capita": 0.274,
     "Social support": 0.757,
@@ -1847,7 +1847,7 @@
   },
   {
     "Overall rank": 143,
-    "Country or region": "Madagascar",
+    "country": "Madagascar",
     "Score": 3.933,
     "GDP per capita": 0.274,
     "Social support": 0.916,
@@ -1860,7 +1860,7 @@
   },
   {
     "Overall rank": 144,
-    "Country or region": "Lesotho",
+    "country": "Lesotho",
     "Score": 3.802,
     "GDP per capita": 0.489,
     "Social support": 1.169,
@@ -1873,7 +1873,7 @@
   },
   {
     "Overall rank": 145,
-    "Country or region": "Burundi",
+    "country": "Burundi",
     "Score": 3.775,
     "GDP per capita": 0.046,
     "Social support": 0.447,
@@ -1886,7 +1886,7 @@
   },
   {
     "Overall rank": 146,
-    "Country or region": "Zimbabwe",
+    "country": "Zimbabwe",
     "Score": 3.663,
     "GDP per capita": 0.366,
     "Social support": 1.114,
@@ -1899,7 +1899,7 @@
   },
   {
     "Overall rank": 147,
-    "Country or region": "Haiti",
+    "country": "Haiti",
     "Score": 3.597,
     "GDP per capita": 0.323,
     "Social support": 0.688,
@@ -1912,7 +1912,7 @@
   },
   {
     "Overall rank": 148,
-    "Country or region": "Botswana",
+    "country": "Botswana",
     "Score": 3.488,
     "GDP per capita": 1.041,
     "Social support": 1.145,
@@ -1925,7 +1925,7 @@
   },
   {
     "Overall rank": 149,
-    "Country or region": "Syria",
+    "country": "Syria",
     "Score": 3.462,
     "GDP per capita": 0.619,
     "Social support": 0.378,
@@ -1938,7 +1938,7 @@
   },
   {
     "Overall rank": 150,
-    "Country or region": "Malawi",
+    "country": "Malawi",
     "Score": 3.41,
     "GDP per capita": 0.191,
     "Social support": 0.56,
@@ -1951,7 +1951,7 @@
   },
   {
     "Overall rank": 151,
-    "Country or region": "Yemen",
+    "country": "Yemen",
     "Score": 3.38,
     "GDP per capita": 0.287,
     "Social support": 1.163,
@@ -1964,7 +1964,7 @@
   },
   {
     "Overall rank": 152,
-    "Country or region": "Rwanda",
+    "country": "Rwanda",
     "Score": 3.334,
     "GDP per capita": 0.359,
     "Social support": 0.711,
@@ -1977,7 +1977,7 @@
   },
   {
     "Overall rank": 153,
-    "Country or region": "Tanzania",
+    "country": "Tanzania",
     "Score": 3.231,
     "GDP per capita": 0.476,
     "Social support": 0.885,
@@ -1990,7 +1990,7 @@
   },
   {
     "Overall rank": 154,
-    "Country or region": "Afghanistan",
+    "country": "Afghanistan",
     "Score": 3.203,
     "GDP per capita": 0.35,
     "Social support": 0.517,
@@ -2003,7 +2003,7 @@
   },
   {
     "Overall rank": 155,
-    "Country or region": "Central African Republic",
+    "country": "Central African Republic",
     "Score": 3.083,
     "GDP per capita": 0.026,
     "Social support": 0,
@@ -2016,7 +2016,7 @@
   },
   {
     "Overall rank": 156,
-    "Country or region": "South Sudan",
+    "country": "South Sudan",
     "Score": 2.853,
     "GDP per capita": 0.306,
     "Social support": 0.575,
