@@ -184,20 +184,28 @@ norway.bindPopup("<h3>Norway</h3></b>Score: 7.554</br>Rank: 3</br>GDP: 1.48");
 //Plan on using the json file to auto populate but having issues
 
 url = "/assets/data/coords.json"
-d3.json(url, function(data) {
-  createFeatures(data.features);
+d3.json(url, function(response) {
+  var markers = L.markerClusterGroup();
+  for (var i = 0; i < response.length; i++) {
+    var location = response[i].location;
+    if (location) {
+      markers.addLayer(L.marker([location.latitude[1], location.longitude[0]])
+        .bindPopup(response[i].name));
+
+    }
+  }
 });
 
 
 
 
-markers = "/assets/data/coords.js"
-for ( var i=0; i < markers.length; ++i ) 
-{
-   L.marker( [markers[i].latitude, markers[i].longitude] )
-      .bindPopup( '<a href="' + markers[i].url + '" target="_blank">' + markers[i].name + '</a>' )
-      .addTo( map );
-}
+// markers = "/assets/data/coords.js"
+// for ( var i=0; i < markers.length; ++i ) 
+// {
+//    L.marker( [markers[i].latitude, markers[i].longitude] )
+//       .bindPopup( '<a href="' + markers[i].url + '" target="_blank">' + markers[i].name + '</a>' )
+//       .addTo( map );
+// }
 var australia = L.circleMarker([-25.2744, 133.7751], {
   draggable: true,
   radius: 5,
