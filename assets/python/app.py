@@ -6,7 +6,7 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 
 
 ##########################################
@@ -20,7 +20,7 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
-Rankings = Base.classes.Rankings
+# Rankings = Base.classes.Rankings
 
 ##########################################
 # Flask Setup
@@ -72,6 +72,11 @@ def world():
         data.append(data_dict)
 
     return jsonify(data)   
+
+@app.route("/choropleth")
+def choropleth():
+    return render_template("choroplethmap.html")
+
 
 if __name__ == "__main__":
     app.run(debug = True)
