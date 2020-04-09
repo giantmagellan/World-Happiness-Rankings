@@ -127,6 +127,14 @@ function loadPageChoropleth(){
 window.location = "http://127.0.0.1:5000/choropleth"
 }
 
+function loadPageBarChart(){
+window.location = "http://127.0.0.1:5000/api/circular"
+}
+
+function loadPageWorldMap(){
+window.location = "http://127.0.0.1:5000/world/map"
+}
+
 var buttons = d3.selectAll('#buttons')
 buttons.append('button')
 			 .text('Circular Bar Chart')
@@ -140,18 +148,8 @@ buttons.append('button')
 		  .style("cursor", "pointer")
 		  .style("-webkit-box-shadow", "inset 0 -2px #dadedf")
 		  .style("box-shadow", "inset 0 -2px #dadedf")
-			 .on("hover", function(d) {
-				 d3.select(this)
-				 		.style("background", "lightblue")
-						.style("color", "white")
-			 })
-			 .on("click", function(d) {
-				 d3.select(this)
-				 	.attr("xlink:href", "http://en.wikipedia.org/wiki/"+word)
-				 	.style("background", "#ecf0f1")
-					.style("color", "#454545")
+			 .on("click", loadPageBarChart)
 
-			 })
 buttons.append('button')
 			 .text('Leaflet')
 			 .style("font-size", "10px")
@@ -164,17 +162,8 @@ buttons.append('button')
 			 .style("cursor", "pointer")
 			 .style("-webkit-box-shadow", "inset 0 -2px #dadedf")
 			 .style("box-shadow", "inset 0 -2px #dadedf")
-			 .on("hover", function(d) {
-				 d3.select(this)
-				 		.style("background", "lightblue")
-						.style("color", "white")
-			 })
-			 .on("click", function(d) {
-				 d3.select(this)
-				 	.attr("xlink:href", "http://en.wikipedia.org/wiki/"+word)
-				 	.style("background", "#ecf0f1")
-				 	.style("color", "#454545")
-			 })
+			 .on("click", loadPageWorldMap)
+
 buttons.append('button')
 			 .text('Choropleth')
 			 .style("font-size", "10px")
