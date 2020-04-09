@@ -9,28 +9,6 @@
 
 //   });
 
-// var colorList = {Denmark: 'red', Norway: 'maroon', t3: 'blue', t: 'green'};
-
-// colorize = function(colorList) {
-//     var container = document.getElementById('container');
-  
-//     for (var key in colorList) {
-//         var boxContainer = document.createElement("DIV");
-//         var box = document.createElement("DIV");
-//         var label = document.createElement("SPAN");
-
-//         label.innerHTML = key;
-//         box.className = "box";
-//         box.style.backgroundColor = colorList[key];
-
-//         boxContainer.appendChild(box);
-//         boxContainer.appendChild(label);
-
-//         container.appendChild(boxContainer);
-
-//    }
-// }
-
 
 
 // Creating custom marker with a smiley face for happiest country
