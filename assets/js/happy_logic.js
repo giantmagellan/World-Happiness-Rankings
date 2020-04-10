@@ -3,20 +3,27 @@
 
 // url = "/world/map"
 
-// d3.json(url, function(data) {
+//Use this url if flask is not working, comment this out and use above url if flask working
+url = "/assets/data/happy_rankings.json"
+d3.json(url, function(response) {
+  var markers = L.markerClusterGroup();
+  for (var i = 0; i < response.length; i++) {
+    var location = response[i].location;
+    if (location) {
+      markers.addLayer(L.circleMarker([location.latitude[1], location.longitude[0]])
+        .bindPopup(response[i].country));
 
-//     createFeatures(data.features);
-
-//   });
-
-
+    }
+  }
+  myMap.addLayer(markers);
+});
 
 // Creating custom marker with a smiley face for happiest country
 
 
 
 var iconOptions = {
-    iconUrl: 'smile.png',
+    iconUrl: '/assets/data/smile.png',
     iconSize: [32, 32]
     
  }
@@ -160,21 +167,6 @@ norway.bindPopup("<h3>Norway</h3></b>Score: 7.554</br>Rank: 3</br>GDP: 1.48");
 
 //Other countries to show concentrated areas of happiness
 //Plan on using the json file to auto populate but having issues
-
-url = "/assets/data/happy_rankings.json"
-d3.json(url, function(response) {
-  var markers = L.markerClusterGroup();
-  for (var i = 0; i < response.length; i++) {
-    var location = response[i].location;
-    if (location) {
-      markers.addLayer(L.circleMarker([location.latitude[1], location.longitude[0]])
-        .bindPopup(response[i].country));
-
-    }
-  }
-  myMap.addLayer(markers);
-});
-
 
 var australia = L.circleMarker([-25.2744, 133.7751], {
   draggable: true,
