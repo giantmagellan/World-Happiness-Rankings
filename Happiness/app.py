@@ -12,7 +12,7 @@ from flask import Flask, jsonify, render_template
 ##########################################
 # Database Setup
 ##########################################
-engine = create_engine('sqlite:///happy_ranks.sqlite')
+engine = create_engine('sqlite:///happiness_ranks.sqlite')
 
 # reflect an existing database into a new model
 Base = automap_base()
@@ -20,7 +20,7 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
-Rankings = Base.classes.Rankings
+HappinessRankings = Base.classes.HappinessRankings
 
 ##########################################
 # Flask Setup
@@ -33,7 +33,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
 
-    return render_template("index.html", rankings_data=Rankings)
+    return render_template("index.html", rankings_data=HappinessRankings)
 
 @app.route("/api/circular")
 def multiple():
@@ -41,7 +41,7 @@ def multiple():
     session = Session(engine)
 
     # Query all countries, scores, and GDP
-    results = session.query(Rankings['Country or region'], Rankings.Score, Rankings['GDP per capita']).all()
+    results = session.query(HappinessRankings['Country'], HappinessRankings.Score, HappinessRankings['GDP per capita']).all()
 
     session.close()
 
@@ -59,7 +59,7 @@ def multiple():
 def world():
     session = Session(engine)
 
-    results = session.query(Rankings['Country or region'], Rankings.Score, Rankings['Overall rank']).all()
+    results = session.query(HappinessRankings['Country'], HappinessRankings.Score, HappinessRankings['GDP per capita']).all()
     
     session.close()
 
