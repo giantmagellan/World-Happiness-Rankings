@@ -20,8 +20,9 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
-HappinessRankings = Base.classes.HappinessRankings
-
+# HappinessRankings = Base.classes.HappinessRankings
+tables = engine.table_names()
+print(tables)
 ##########################################
 # Flask Setup
 ##########################################
@@ -33,15 +34,15 @@ app = Flask(__name__)
 @app.route("/")
 def home():
 
-    return render_template("index.html", rankings_data=HappinessRankings)
-
+    # return render_template("index.html", rankings_data=HappinessRankings)
+    return render_template("index.html")
 @app.route("/api/circular")
 def multiple():
     """ Return 2019 Happiness Rankings data as json """
     session = Session(engine)
 
     # Query all countries, scores, and GDP
-    results = session.query(HappinessRankings['Country'], HappinessRankings.Score, HappinessRankings['GDP per capita']).all()
+    results = session.query(Rankings['Country'], Rankings.Score, Rankings['GDP per capita']).all()
 
     session.close()
 
@@ -59,7 +60,7 @@ def multiple():
 def world():
     session = Session(engine)
 
-    results = session.query(HappinessRankings['Country'], HappinessRankings.Score, HappinessRankings['GDP per capita']).all()
+    results = session.query(Rankings['Country'], Rankings.Score, Rankings['GDP per capita']).all()
     
     session.close()
 
