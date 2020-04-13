@@ -81,6 +81,7 @@ def circular_bar():
         all_rankings.append(rankings_dict)
 
     return jsonify(all_rankings)   
+    return render_template("circular_bar.html")
 
 # Leaflet viz route
 ###################
