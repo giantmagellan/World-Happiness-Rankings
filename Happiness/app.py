@@ -95,9 +95,9 @@ def world():
     data = []
     for country, score, overall_rank in results:
         data_dict = {}
-        rankings_dict['country'] = country
-        rankings_dict['score'] = score
-        rankings_dict['overall_rank'] = overall_rank
+        data_dict['country'] = country
+        data_dict['score'] = score
+        data_dict['overall_rank'] = overall_rank
         data.append(data_dict)
 
     return jsonify(data)   
