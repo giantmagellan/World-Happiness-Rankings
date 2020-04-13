@@ -50,7 +50,7 @@ d3.json(url).then(function(happyData) {
     var x = d3.scaleBand()
         .range([0, 2*Math.PI]) // x-axis range from 0 to 2pi
         .align(0)
-        .domain(happyData.map(function(d) {return d.Country;}));
+        .domain(happyData.map(function(d) {return d.country;}));
     console.log(x);
 
     var y = d3.scaleRadial()
@@ -71,9 +71,9 @@ d3.json(url).then(function(happyData) {
         .attr('class', 'yo')
         .attr("d", d3.arc()   
             .innerRadius(innerRadius)
-            .outerRadius(d => {return y(d.Score); })
-            .startAngle(d => {return x(d.Country); })
-            .endAngle(d => {return x(d.Country) + x.bandwidth(); })
+            .outerRadius(d => {return y(d.score); })
+            .startAngle(d => {return x(d.country); })
+            .endAngle(d => {return x(d.country) + x.bandwidth(); })
             .padAngle(0.01));
     console.log(scalesGroup);
 
@@ -85,11 +85,11 @@ d3.json(url).then(function(happyData) {
         .data(happyData)
         .enter()
         .append('g')
-        .attr("text-anchor", d => {return (x(d.Country) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "end":"start"; })
-        .attr("transform", d => {return "rotate(" + ((x(d.Country) + x.bandwidth() / 2) * 180 / Math.PI - 90) + ")"+"translate(" + (y(d['GDP per capita'])+73) + ", 0)"; })
+        .attr("text-anchor", d => {return (x(d.country) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "end":"start"; })
+        .attr("transform", d => {return "rotate(" + ((x(d.country) + x.bandwidth() / 2) * 180 / Math.PI - 90) + ")"+"translate(" + (y(d.gdp_per_capita)+73) + ", 0)"; })
         .append("text")
-        .text(d => {return(d.Country)})
-        .attr("transform", d => {return (x(d.Country) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "rotate(180)" : "rotate(0)"; })
+        .text(d => {return(d.country)})
+        .attr("transform", d => {return (x(d.country) + x.bandwidth() / 2 + Math.PI) % (2 * Math.PI) < Math.PI ? "rotate(180)" : "rotate(0)"; })
         .style("font-size", "11px")
         .attr("alignment-baseline", "middle")
     console.log(labelsGroup);
@@ -103,8 +103,8 @@ d3.json(url).then(function(happyData) {
         .attr('d', d3.arc()
             .innerRadius(d => {return ybis(0)})
             .outerRadius(d => {return ybis(d['GDP per capita']); })
-            .startAngle(d => {return x(d.Country); })
-            .endAngle(d => {return x(d.Country) + x.bandwidth(); })
+            .startAngle(d => {return x(d.country); })
+            .endAngle(d => {return x(d.country) + x.bandwidth(); })
             .padAngle(0.01)
             .padRadius(innerRadius));
     
