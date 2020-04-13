@@ -106,77 +106,77 @@
 	      <div id="footer">
 	        World Happiness Visualization Project
 					<div class="desc">
-						<span>Bryan Flores, Monica Chao, Steven Quitugua <span/></br>
+						<span>Bryan Flores, Monica Chao, Steven Quitugua <span/><br>
 						<span> Our purpose was to visualize happiness all over the world in 2019 based on the dataset
 							made by the Sustainable Development Solutions Network which was uploaded on Kaggle (https://www.kaggle.com/unsdsn/world-happiness).
 							Especially during this sensitive time, we wanted to present on a topic that's on the more positive side. 
 						 </span>
 					</div>
-
 				<div id="buttons"></div>
+	      </div>
 		</div>
 
 		<script type="text/javascript">
 
-var width = 750,
-	height = 250,
-	radius = 10;
-	padding = 100;
+		var width = 750,
+			height = 250,
+			radius = 10;
+			padding = 100;
 
-function loadPageChoropleth(){
-window.location = "http://127.0.0.1:5000/choropleth"
-}
+		function loadPageChoropleth(){
+		window.location = "http://127.0.0.1:5000/choropleth"
+		}
 
-function loadPageBarChart(){
-window.location = "http://127.0.0.1:5000/circular"
-}
+		function loadPageBarChart(){
+		window.location = "http://127.0.0.1:5000/circular"
+		}
 
-function loadPageWorldMap(){
-window.location = "http://127.0.0.1:5000/world/map"
-}
-	
-var buttons = d3.selectAll('#buttons')
-buttons.append('button')
-			 .text('Circular Bar Chart')
-			 .style("font-size", "10px")
-			 .style("font-family", "Helvetica Neue")
-			 .style("padding", "8px")
-			 .style("color", "#454545")
-  	 	.style("text-shadow", "0 1px 2px rgba(0, 0, 0, 0.25)")
-		  .style("background", "#ecf0f1")
-		  .style("border", "2px solid white")
-		  .style("cursor", "pointer")
-		  .style("-webkit-box-shadow", "inset 0 -2px #dadedf")
-		  .style("box-shadow", "inset 0 -2px #dadedf")
-			 .on("click", loadPageBarChart)
+		function loadPageWorldMap(){
+		window.location = "http://127.0.0.1:5000/world/map"
+		}
+			
+		var buttons = d3.selectAll('#buttons')
+		buttons.append('button')
+					.text('Circular Bar Chart')
+					.style("font-size", "10px")
+					.style("font-family", "Helvetica Neue")
+					.style("padding", "8px")
+					.style("color", "#454545")
+				.style("text-shadow", "0 1px 2px rgba(0, 0, 0, 0.25)")
+				.style("background", "#ecf0f1")
+				.style("border", "2px solid white")
+				.style("cursor", "pointer")
+				.style("-webkit-box-shadow", "inset 0 -2px #dadedf")
+				.style("box-shadow", "inset 0 -2px #dadedf")
+					.on("click", loadPageBarChart)
 
-buttons.append('button')
-			 .text('Leaflet')
-			 .style("font-size", "10px")
-			 .style("font-family", "Helvetica Neue")
-			 .style("padding", "8px")
-			 .style("color", "#454545")
-			 .style("text-shadow", "0 1px 2px rgba(0, 0, 0, 0.25)")
-			 .style("background", "#ecf0f1")
-			 .style("border", "2px solid white")
-			 .style("cursor", "pointer")
-			 .style("-webkit-box-shadow", "inset 0 -2px #dadedf")
-			 .style("box-shadow", "inset 0 -2px #dadedf")
-			 .on("click", loadPageWorldMap)
+		buttons.append('button')
+					.text('Leaflet')
+					.style("font-size", "10px")
+					.style("font-family", "Helvetica Neue")
+					.style("padding", "8px")
+					.style("color", "#454545")
+					.style("text-shadow", "0 1px 2px rgba(0, 0, 0, 0.25)")
+					.style("background", "#ecf0f1")
+					.style("border", "2px solid white")
+					.style("cursor", "pointer")
+					.style("-webkit-box-shadow", "inset 0 -2px #dadedf")
+					.style("box-shadow", "inset 0 -2px #dadedf")
+					.on("click", loadPageWorldMap)
 
-buttons.append('button')
-			 .text('Choropleth')
-			 .style("font-size", "10px")
-			 .style("font-family", "Helvetica Neue")
-			 .style("padding", "8px")
-			 .style("color", "#454545")
-			 .style("text-shadow", "0 1px 2px rgba(0, 0, 0, 0.25)")
-			 .style("background", "#ecf0f1")
-			 .style("border", "2px solid white")
-			 .style("cursor", "pointer")
-			 .style("-webkit-box-shadow", "inset 0 -2px #dadedf")
-			 .style("box-shadow", "inset 0 -2px #dadedf")
-			 .on("click", loadPageChoropleth)
+		buttons.append('button')
+					.text('Choropleth')
+					.style("font-size", "10px")
+					.style("font-family", "Helvetica Neue")
+					.style("padding", "8px")
+					.style("color", "#454545")
+					.style("text-shadow", "0 1px 2px rgba(0, 0, 0, 0.25)")
+					.style("background", "#ecf0f1")
+					.style("border", "2px solid white")
+					.style("cursor", "pointer")
+					.style("-webkit-box-shadow", "inset 0 -2px #dadedf")
+					.style("box-shadow", "inset 0 -2px #dadedf")
+					.on("click", loadPageChoropleth)
 
 // TODO: on click function to redirect you to the pages to our visualizations (.attr("xlink:href", "http://en.wikipedia.org/wiki/"+word)
 
