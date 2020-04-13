@@ -5,7 +5,7 @@
     
         <meta charset="utf-8">
         <title>World Happiness Visualization</title>
-        <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+        <!-- <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script> -->
         <style type="text/css">
 		body {
 		  /*overflow: hidden;*/
@@ -184,25 +184,22 @@
 		<!-- d3 JavaScript -->
 		<script src="https://d3js.org/d3.v5.min.js"></script>
 
-        <!-- Leaflet -->
-		<script type="text/javascript" src="/static/happy_logic.js"></script>
-
         <!-- Leaflet-Choropleth JavaScript -->
-        <script type="text/javascript" src="/static/choropleth.js"></script>
+        <script type="text/javascript" src="Happiness/static/choropleth.js"></script>
 
         <!-- CSS Styling -->
-        <link rel="stylesheet" type="text/css" href="/static/style.css">
+        <link rel="stylesheet" type="text/css" href="Happiness/static/style.css">
 
         <!-- Radial charts -->
         <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3-scale-radial.js"></script>
-        <script type="text/javascript" src="url_for('static', filename='circular-barplot.js')"></script>
+        <script type="text/javascript" src="Happiness/static/circular-barplot.js"></script>
         
 
         <!-- The div where we will inject our map -->
         <div id="map"></div>
     
-        <script type="text/javascript" src="/static/config.js"></script>
-        <script type="text/javascript" src="/static/logic.js"></script>
+        <script type="text/javascript" src="Happiness/static/config.js"></script>
+        <script type="text/javascript" src="Happiness/static/logic.js"></script>
     
     </body>
 </html>

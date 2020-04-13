@@ -80,7 +80,7 @@ def circular_bar():
         rankings_dict['gdp_per_capita'] = gdp_per_capita
         all_rankings.append(rankings_dict)
 
-    return jsonify(all_rankings)   
+    return jsonify(all_rankings), render_template('circular_bar.html')
 
 # Leaflet viz route
 ###################
