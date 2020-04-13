@@ -39,7 +39,7 @@ var chosenYAxis = "Score";
 // ===========================================================
 // RETRIEVE DATA
 // ===========================================================
-url = "/circular";
+url = "/circular_data";
 d3.json(url).then(function(happyData) {
 // d3.csv('assets/data/2019_world_happy_rankings.csv').then(function(happyData) {
     console.log(happyData);

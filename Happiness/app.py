@@ -62,7 +62,7 @@ def home():
 
 # Circular Bar Plot route
 #########################
-@app.route("/circular")
+@app.route("/circular_data")
 def circular_bar():
     """ Return 2019 Happiness Rankings data as json """
     session = Session(engine)
@@ -81,6 +81,10 @@ def circular_bar():
         all_rankings.append(rankings_dict)
 
     return jsonify(all_rankings)
+
+@app.route("/circular")
+def circular_plot():
+    return render_template("circular_bar.html")
 
 # Leaflet viz route
 ###################
