@@ -1,10 +1,10 @@
 
 // Waiting for flask to be ready 
 
-// url = "/world/map"
+url = "/map_data"
 
 //Use this url if flask is not working, comment this out and use above url if flask working
-url = "/assets/data/happy_rankings.json"
+// url = "/assets/data/happy_rankings.json"
 d3.json(url, function(response) {
   var markers = L.markerClusterGroup();
   for (var i = 0; i < response.length; i++) {

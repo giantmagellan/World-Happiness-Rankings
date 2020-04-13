@@ -88,11 +88,11 @@ def circular_plot():
 
 # Leaflet viz route
 ###################
-@app.route("/world/map")
+@app.route("/map_data")
 def world():
     session = Session(engine)
 
-    results = session.query(Rankings.country, Rankings.score, Rankings.overall_rank).all()
+    results = session.query(Rankings.country, Rankings.score, Rankings.overall_rank, Rankings.latitude, Rankings.longitude).all()
     
     session.close()
 
@@ -102,9 +102,15 @@ def world():
         data_dict['country'] = country
         data_dict['score'] = score
         data_dict['overall_rank'] = overall_rank
+        data_dict['latitude'] = latitude
+        data_dict['longitude'] = longitude
         data.append(data_dict)
 
     return jsonify(data)   
+
+@app.route("/world/map")
+def map():
+    return render_template("leaflet_map.html")
 
 # Chloropleth map route
 #######################
