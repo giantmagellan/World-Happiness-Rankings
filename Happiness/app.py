@@ -13,15 +13,30 @@ from flask import Flask, jsonify, render_template
 ##########################################
 # Database Setup
 ##########################################
-engine = create_engine('sqlite:///happyRanksDB.sqlite')
-
-# reflect an existing database into a new model
+# automap base
 Base = automap_base()
+
+# Class to serve as anchor point for the table
+class Rankings(Base):
+    __tablename__ = 'RANKINGS'
+    overall_rank = Column(Integer, primary_key=True)
+    country = Column(String)
+    score = Column(Float)
+    gdp_per_capita = Column(Float)
+    social_support = Column(Float)
+    healthy_life_expectancy = Column(Float)
+    freedom_to_choose = Column(Float)
+    generosity = Column(Float)
+    perception_of_corruption = Column(Float)
+    latitude = Column(Float)
+    longitude = Column(Float)
+
 # reflect the tables
+engine = create_engine('sqlite:///happyRanksDB.sqlite')
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
-# Rankings = Base.classes.Rankings
+Rankings = Base.classes.Rankings
 
 session = Session(engine)
 
