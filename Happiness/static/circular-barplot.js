@@ -102,7 +102,7 @@ d3.json(url).then(function(happyData) {
         .attr('fill', '#0f3443')
         .attr('d', d3.arc()
             .innerRadius(d => {return ybis(0)})
-            .outerRadius(d => {return ybis(d['GDP per capita']); })
+            .outerRadius(d => {return ybis(d.gdp_per_capita); })
             .startAngle(d => {return x(d.country); })
             .endAngle(d => {return x(d.country) + x.bandwidth(); })
             .padAngle(0.01)
