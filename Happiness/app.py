@@ -2,12 +2,16 @@
 # Dependencies
 ##########################################
 import sqlalchemy
+from sqlalchemy import create_engine, func
+from sqlalchemy import Column, Integer, String, Float
+from flask import Flask, jsonify, render_template
+# Extensions
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.ext.declarative import declarative_base
+# ORMs
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
 
-from flask import Flask, jsonify, render_template
+
 
 
 ##########################################
