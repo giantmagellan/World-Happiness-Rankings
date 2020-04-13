@@ -21,7 +21,7 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
-Rankings = Base.classes.Rankings
+# Rankings = Base.classes.Rankings
 
 session = Session(engine)
 
