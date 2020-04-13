@@ -95,7 +95,6 @@ def world():
     data = []
     for country, score, overall_rank in results:
         data_dict = {}
-        rankings_dict = {}
         rankings_dict['country'] = country
         rankings_dict['score'] = score
         rankings_dict['overall_rank'] = overall_rank
