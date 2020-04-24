@@ -5,3 +5,5 @@ Repository for creating visualizations of the 2019 World Happiness Rankings with
 Presentation: https://docs.google.com/presentation/d/1H-ILUGrWlB_qpdE43HROZzM8N1P-0S68Z3BVyfumNao/edit?usp=sharing
 
 Visualizations: https://giantmagellan.github.io/happiness-project/
+
+http://127.0.0.1:5000/
