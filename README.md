@@ -1,4 +1,4 @@
-# World Happiness Visualization Project
+# World Happiness Visualization 
 
 Repository for creating visualizations of the 2019 World Happiness Rankings with HTML and Javascript. Data is queried from a sqlite database in the Flask app.
 
