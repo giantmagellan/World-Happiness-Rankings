@@ -9,4 +9,5 @@ Presentation: https://docs.google.com/presentation/d/1H-ILUGrWlB_qpdE43HROZzM8N1
 * Monica Chao
 * Steven Quitugua
 
+### Chosen Topic and Rationale
 
