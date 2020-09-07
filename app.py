@@ -36,7 +36,7 @@ class Rankings(Base):
     longitude = Column(Float)
 
 # reflect the tables
-engine = create_engine('sqlite:///happyRanksDB.sqlite')
+engine = create_engine('sqlite:///yearlyRankingsDB.sqlite')
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
